@@ -63,7 +63,7 @@ a {
     margin-top: -0.5%;
 }
 
-
+// Sign up and Login buttons
 
 .tab-group {
     border: 1px solid red;
@@ -117,7 +117,7 @@ a {
     label {
         position: absolute;
         transform: translateY(6px);
-        left: 13px;
+        left: 40px;
         color: rgba($light-blue, .5);
         transition: all 0.25s ease;
         backface-visibility: hidden;
@@ -145,9 +145,10 @@ a {
     input, textarea {
         font-size: 22px;
         display: block;
-        width: 100%;
+        width: 90%;
         height: 5%;
         padding:5px 10px;
+        margin: 0 0 0 5%;
         background:none;
         background-image:none;
         border: 2px solid $gray-light;
