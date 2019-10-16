@@ -19,94 +19,94 @@ $main-font: 'Rubik', sans-serif;
 $sec-font: 'Karla', sans-serif;
 
 
-// *, *:before, *:after {
-//     box-sizing: border-box;
-// }
+*, *:before, *:after {
+    box-sizing: border-box;
+}
 
 
-// body {
-//     width: 100%;
-//     background: url(../img/claudio-schwarz-purzlbaum-j3cRb9nZ7vE-unsplash.jpg) center no-repeat;
-//     background-size: cover;
-//     font-family: $sec-font;
-//     position: absolute;
-//     overflow: hidden;                                                                                                                                                                                                                                                                       
-// }
+body {
+    width: 100%;
+    background: url(../img/claudio-schwarz-purzlbaum-j3cRb9nZ7vE-unsplash.jpg) center no-repeat;
+    background-size: cover;
+    font-family: $sec-font;
+    position: absolute;
+    overflow: hidden;                                                                                                                                                                                                                                                                       
+}
 
-// div {
-//     width: 100%;
-// }
+div {
+    width: 100%;
+}
 
-// h1 {
-//     font-family: $main-font;
-//     font-size: $lg-font;
-//     text-align: center;
-//     margin: 0 0 40px;
-// }
+h1 {
+    font-family: $main-font;
+    font-size: $lg-font;
+    text-align: center;
+    margin: 0 0 40px;
+}
 
-// a {
-//     text-decoration: none;
-//     color: $light-blue;
-//     transition: .5s ease;
-//     &:hover {
-//         color: $light-dark;
-//     }
-// }
-
-
-// .side-bar {
-//     background-color: $white;
-//     position: relative;
-//     width: 50%;
-//     height: 100vh;
-//     float: right;
-//     margin-top: -0.5%;
-// }
+a {
+    text-decoration: none;
+    color: $light-blue;
+    transition: .5s ease;
+    &:hover {
+        color: $light-dark;
+    }
+}
 
 
+.side-bar {
+    background-color: $white;
+    position: relative;
+    width: 50%;
+    height: 100vh;
+    float: right;
+    margin-top: -0.5%;
+}
 
-// .tab-group {
-//     border: 1px solid red;
-//     padding: 0;
-//     margin: 0 0 40px 0;
 
-//     &:after {
-//         content: "";
-//         display: table;
-//         clear: both;
-//     }
 
-//     li {
-//         display: inline-block;
-//         width: 50%;
-//         float: left;
-//         margin: 0 -15px 5px 0;
-//         padding-left: 15px;
-//     }
+.tab-group {
+    border: 1px solid red;
+    padding: 0;
+    margin: 0 0 40px 0;
+
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    li {
+        display: inline-block;
+        width: 50%;
+        float: left;
+        margin: 0 -15px 5px 0;
+        padding-left: 15px;
+    }
     
-//     li a {
-//         display: block;
-//         text-decoration: none;
-//         padding: 15px;
-//         background: rgba($gray-light, .25);
-//         color: $gray-light;
-//         font-size: 20px;
-//         float: auto;
-//         width: 50%;
-//         text-align: center;
-//         cursor: pointer;
-//         transition: .5s ease;
-//         &:hover {
-//             background: $light-dark;
-//             color: white;
-//         }
-//     }
+    li a {
+        display: block;
+        text-decoration: none;
+        padding: 15px;
+        background: rgba($gray-light, .25);
+        color: $gray-light;
+        font-size: 20px;
+        float: auto;
+        width: 50%;
+        text-align: center;
+        cursor: pointer;
+        transition: .5s ease;
+        &:hover {
+            background: $light-dark;
+            color: white;
+        }
+    }
 
-//     .active a {
-//         background: $light-blue;
-//         color: $white;
-//     }
-// }
+    .active a {
+        background: $light-blue;
+        color: $white;
+    }
+}
 
 // .tab-content{
 //  background-color: $dark-blue;
