@@ -107,9 +107,13 @@ a {
     }
 }
 
+// Input Fields
+
 .tab-content{
  background-color: $dark-blue;
 }
+
+    // Login form is hidden
     .tab-content > div:last-child {
         display: none;
     }
@@ -176,25 +180,25 @@ a {
         margin-bottom:30px;
     }
     
-//     .top-row {
-//         padding-top: 15px;
-//         display: inline-block;
-//         margin: 0 auto;
-//         &:after {
-//             content: "";
-//             display: table;
-//             clear: both;
-//         }
+    .top-row {
+        padding-top: 15px;
+        display: inline-block;
+        margin: 0 0 0 2.7%;
+        &:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
         
-//         > div {
-//             float:left;
-//             width:45%;
-//             margin-right:4%;
-//             &:last-child { 
-//             margin: 0;
-//             }
-//         }
-//     }
+        > div {
+            float:left;
+            width:45%;
+            margin-right:4%;
+            &:last-child { 
+            margin: 0;
+            }
+        }
+    }
 
 //     .button {
 //         border:0;
