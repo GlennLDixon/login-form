@@ -63,9 +63,7 @@ a {
     background: #4F9FE6;
     color: #fff; }
 
-.tab-content {
-  background: #2c3e50;
-  /* fallback for old browsers */
+.form {
   background: -webkit-linear-gradient(to bottom, #3498db, #2c3e50);
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to bottom, #3498db, #2c3e50);
