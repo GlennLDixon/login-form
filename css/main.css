@@ -15,11 +15,18 @@ div {
 h1 {
   font-family: "Rubik", sans-serif;
   font-size: 3em;
-  color: white;
+  color: #4F9FE6;
+  background: #fff;
   text-align: center;
   margin: 0 0 40px 0;
   padding: 20px 0 20px 0;
-  box-shadow: 0 1px 7px -2px #000; }
+  box-shadow: 0 4px 7px -2px #000;
+  background: #ECE9E6;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #FFFFFF, #ECE9E6);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #FFFFFF, #ECE9E6);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
 
 a {
   text-decoration: none;
