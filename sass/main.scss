@@ -45,7 +45,7 @@ h1 {
     text-align: center;
     margin: 0 0 40px 0;
     padding: 20px 0 20px 0;
-    box-shadow: 0 4px 7px -2px #000;
+    box-shadow: 0 4px 7px -6px #000;
     background: #ECE9E6;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -65,10 +65,11 @@ a {
 .side-bar {
     // background-color: $white;
     position: relative;
-    width: 45%;
+    width: 40%;
     height: 100vh;
     float: right;
     margin-top: -0.5%;
+    
 }
 
 // Sign up and Login buttons
@@ -120,6 +121,7 @@ a {
     background: -webkit-linear-gradient(to bottom, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     height: 100vh;
+    box-shadow: -3px 0 20px -5.5px #000;
 }
 
     ////////////// Login form is hidden /////////////
