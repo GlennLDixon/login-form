@@ -79,14 +79,14 @@ label {
   position: absolute;
   transform: translateY(6px);
   left: 40px;
-  color: rgba(79, 159, 230, 0.5);
+  color: rgba(255, 255, 255, 0.5);
   transition: all 0.25s ease;
   backface-visibility: hidden;
   pointer-events: none;
   font-size: 22px; }
   label .req {
     margin: 2px;
-    color: #4F9FE6; }
+    color: #fff; }
 
 label.active {
   transform: translateY(50px);

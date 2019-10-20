@@ -128,14 +128,14 @@ a {
         position: absolute;
         transform: translateY(6px);
         left: 40px;
-        color: rgba($light-blue, .5);
+        color: rgba($white, .5);
         transition: all 0.25s ease;
         backface-visibility: hidden;
         pointer-events: none;
         font-size: 22px;
         .req {
             margin: 2px;
-            color: $light-blue;
+            color: $white;
         }
     }
 
