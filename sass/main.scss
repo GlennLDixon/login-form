@@ -11,7 +11,7 @@ $gray: #ddd;
 $white: #fff;
 
 $lg-font: 3em;
-$md-font: 2em;
+$md-font: 1.2em;
 $sm-font: .8em;
 
 $line-space: 2em;
@@ -92,19 +92,21 @@ a {
         width: 50%;
         float: left;
         margin: 0 -15% 0 0;
+        padding-left: 25px;
     }
     
     li a {
         display: block;
         text-decoration: none;
-        padding: 15px;
+        padding: 13px;
         background: rgba($gray-light, .25);
         color: $gray-light;
-        font-size: 20px;
+        font-size: $md-font;
         float: auto;
-        width: 50%;
+        width: 60%;
         text-align: center;
         cursor: pointer;
+        border-radius: 5px;
         transition: .5s ease;
         &:hover {
             background: $light-dark;
@@ -188,7 +190,7 @@ a {
     #signup {
         width: 100%;
         text-align: center;
-        padding: 80px 0 15px 0;
+        padding: 30px 0 15px 0;
     }
 
     .field-wrap {

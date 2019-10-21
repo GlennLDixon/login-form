@@ -4423,18 +4423,20 @@ a {
   .tab-group li {
     width: 50%;
     float: left;
-    margin: 0 -15% 0 0; }
+    margin: 0 -15% 0 0;
+    padding-left: 25px; }
   .tab-group li a {
     display: block;
     text-decoration: none;
-    padding: 15px;
+    padding: 13px;
     background: rgba(160, 179, 176, 0.25);
     color: #a0b3b0;
-    font-size: 20px;
+    font-size: 1.2em;
     float: auto;
-    width: 50%;
+    width: 60%;
     text-align: center;
     cursor: pointer;
+    border-radius: 5px;
     transition: .5s ease; }
     .tab-group li a:hover {
       background: #3993e3;
@@ -4497,7 +4499,7 @@ input, textarea {
 #signup {
   width: 100%;
   text-align: center;
-  padding: 80px 0 15px 0; }
+  padding: 30px 0 15px 0; }
 
 .field-wrap {
   position: relative;
