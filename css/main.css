@@ -4414,7 +4414,8 @@ a {
 
 .tab-group {
   border: 1px solid red;
-  padding: 0; }
+  padding: 0;
+  list-style: none; }
   .tab-group:after {
     content: "";
     display: table;
