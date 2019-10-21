@@ -4413,7 +4413,6 @@ a {
   margin-top: -0.5%; }
 
 .tab-group {
-  border: 1px solid red;
   padding: 0;
   list-style: none; }
   .tab-group:after {
@@ -4421,10 +4420,10 @@ a {
     display: table;
     clear: both; }
   .tab-group li {
-    width: 50%;
+    width: 40%;
     float: left;
     margin: 0 -15% 0 0;
-    padding-left: 25px; }
+    padding-left: 35px; }
   .tab-group li a {
     display: block;
     text-decoration: none;
@@ -4519,5 +4518,28 @@ input, textarea {
     margin-right: 4%; }
     .top-row > div:last-child {
       margin: 0; }
+
+.footer {
+  margin: 20px 0 0 0;
+  padding: 20px 0 0 0;
+  border: 1px solid red; }
+  .footer P {
+    text-align: center; }
+    .footer P b {
+      color: white; }
+      .footer P b:hover {
+        color: #4F9FE6; }
+  .footer .icons {
+    margin: 0 0 0 0;
+    color: #4F9FE6;
+    background: white;
+    padding: 20px 0 15px 0;
+    text-align: center;
+    clip-path: polygon(11% 60%, 24% 53%, 38% 49%, 53% 48%, 67% 49%, 78% 52%, 89% 59%, 100% 68%, 100% 100%, 0 100%, 0 70%); }
+    .footer .icons i {
+      margin: 15px 0 0 0;
+      padding: 0 10px 0 10px; }
+      .footer .icons i:hover {
+        color: #4F9FE6; }
 
 /*# sourceMappingURL=main.css.map */

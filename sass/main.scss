@@ -77,7 +77,6 @@ a {
 // Sign up and Login buttons
 
 .tab-group {
-    border: 1px solid red;
     padding: 0;
     list-style: none;
     //margin: 0 0 40px 0;
@@ -89,10 +88,10 @@ a {
     }
 
     li {
-        width: 50%;
+        width: 40%;
         float: left;
         margin: 0 -15% 0 0;
-        padding-left: 25px;
+        padding-left: 35px;
     }
     
     li a {
@@ -214,6 +213,42 @@ a {
             margin-right:4%;
             &:last-child { 
             margin: 0;
+            }
+        }
+    }
+
+    .footer {
+        margin: 20px 0 0 0;
+        padding: 20px 0 0 0;
+        border: 1px solid red;
+        P {
+            text-align: center;
+            b {
+                color: white;
+                &:hover {
+                    color: $light-blue;
+                }
+            }
+        }
+
+        .icons {
+            margin: 0 0 0 0;
+            color: $light-blue;
+            background: white;
+            padding: 20px 0 15px 0;
+            text-align: center;
+            // height: 30%;
+            // clip-path: polygon(8% 73%, 21% 60%, 38% 52%, 55% 51%, 69% 52%, 83% 59%, 91% 69%, 100% 85%, 100% 100%, 0 100%, 0 86%);
+            // clip-path: polygon(10% 69%, 21% 60%, 38% 52%, 55% 51%, 69% 52%, 83% 59%, 91% 69%, 100% 69%, 100% 100%, 0 100%, 0 70%);
+            clip-path: polygon(11% 60%, 24% 53%, 38% 49%, 53% 48%, 67% 49%, 78% 52%, 89% 59%, 100% 68%, 100% 100%, 0 100%, 0 70%);
+
+
+            i {
+                margin: 15px 0 0 0;
+                padding: 0 10px 0 10px;
+                &:hover {
+                    color: $light-blue;
+                }
             }
         }
     }
