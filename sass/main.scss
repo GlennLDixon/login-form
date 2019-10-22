@@ -219,10 +219,9 @@ a {
 
     .footer {
         margin: 20px 0 0 0;
-        padding: 20px 0 0 0;
-        border: 1px solid red;
+        //border: 1px solid red;
+        text-align: center;
         P {
-            text-align: center;
             b {
                 color: white;
                 &:hover {
@@ -230,18 +229,20 @@ a {
                 }
             }
         }
-
+        
+        //////////////// Social Media Icons Within Footer //////////////
+        
         .icons {
-            margin: 0 0 0 0;
+            box-shadow: -130px 100px 100px 100px red;
+            // transform: rotate(180deg);
+            margin: 40px 0 0 0;
             color: $light-blue;
             background: white;
             padding: 20px 0 15px 0;
             text-align: center;
             // height: 30%;
-            // clip-path: polygon(8% 73%, 21% 60%, 38% 52%, 55% 51%, 69% 52%, 83% 59%, 91% 69%, 100% 85%, 100% 100%, 0 100%, 0 86%);
-            // clip-path: polygon(10% 69%, 21% 60%, 38% 52%, 55% 51%, 69% 52%, 83% 59%, 91% 69%, 100% 69%, 100% 100%, 0 100%, 0 70%);
-            clip-path: polygon(11% 60%, 24% 53%, 38% 49%, 53% 48%, 67% 49%, 78% 52%, 89% 59%, 100% 68%, 100% 100%, 0 100%, 0 70%);
-
+            //clip-path: polygon(8% 49%, 19% 41%, 32% 37%, 50% 34%, 67% 36%, 84% 41%, 94% 50%, 100% 68%, 100% 100%, 0 100%, 0 65%);
+            clip-path: ellipse(55% 67% at 50% 100%);
 
             i {
                 margin: 15px 0 0 0;
