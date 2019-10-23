@@ -138,14 +138,14 @@ a {
         position: absolute;
         transform: translateY(6px);
         left: 40px;
-        color: rgba($white, .5);
+        color: rgba($dark-blue, .8);
         transition: all 0.25s ease;
         backface-visibility: hidden;
         pointer-events: none;
-        font-size: 22px;
+        font-size: $md-font;
         .req {
             margin: 2px;
-            color: $white;
+            color: $dark-blue;
         }
     }
 
@@ -167,13 +167,14 @@ a {
         display: block;
         width: 90%;
         height: 5%;
-        padding:5px 10px;
+        padding: 5px 10px;
         margin: 0 0 0 5%;
-        background:none;
+        background: $white;
         background-image:none;
-        border: 2px solid $gray-light;
-        color:$white;
-        border-radius: 2px;
+        border: 2px solid $dark-blue;
+        color: $dark-blue;
+        border-radius: 10px;
+        box-shadow: 6px 5px 10px -5px #000;
         transition:border-color .25s ease, box-shadow .25s ease;
         &:focus {
 		    outline:0;

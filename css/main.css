@@ -4459,14 +4459,14 @@ label {
   position: absolute;
   transform: translateY(6px);
   left: 40px;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(8, 41, 70, 0.8);
   transition: all 0.25s ease;
   backface-visibility: hidden;
   pointer-events: none;
-  font-size: 22px; }
+  font-size: 1.2em; }
   label .req {
     margin: 2px;
-    color: #fff; }
+    color: #082946; }
 
 label.active {
   transform: translateY(50px);
@@ -4485,11 +4485,12 @@ input, textarea {
   height: 5%;
   padding: 5px 10px;
   margin: 0 0 0 5%;
-  background: none;
+  background: #fff;
   background-image: none;
-  border: 2px solid #a0b3b0;
-  color: #fff;
-  border-radius: 2px;
+  border: 2px solid #082946;
+  color: #082946;
+  border-radius: 10px;
+  box-shadow: 6px 5px 10px -5px #000;
   transition: border-color .25s ease, box-shadow .25s ease; }
   input:focus, textarea:focus {
     outline: 0;
