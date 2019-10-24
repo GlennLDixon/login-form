@@ -4528,13 +4528,11 @@ input, textarea {
     .footer P b:hover {
       color: #4F9FE6; }
   .footer .icons {
-    box-shadow: -130px 100px 100px 100px red;
     margin: 40px 0 0 0;
     color: #4F9FE6;
     background: white;
     padding: 20px 0 15px 0;
-    text-align: center;
-    clip-path: ellipse(55% 67% at 50% 100%); }
+    text-align: center; }
     .footer .icons i {
       margin: 15px 0 0 0;
       padding: 0 10px 0 10px; }
