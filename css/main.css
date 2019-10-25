@@ -4490,7 +4490,6 @@ input, textarea {
   border: 2px solid #082946;
   color: #082946;
   border-radius: 10px;
-  box-shadow: 6px 5px 10px -5px #000;
   transition: border-color .25s ease, box-shadow .25s ease; }
   input:focus, textarea:focus {
     outline: 0;

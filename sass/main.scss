@@ -174,7 +174,6 @@ a {
         border: 2px solid $dark-blue;
         color: $dark-blue;
         border-radius: 10px;
-        box-shadow: 6px 5px 10px -5px #000;
         transition:border-color .25s ease, box-shadow .25s ease;
         &:focus {
 		    outline:0;
